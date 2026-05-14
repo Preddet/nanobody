@@ -1,6 +1,6 @@
 [
   {
-    "pdb": "9b0a",
+    "pdb": "9B0A",
     "antigen": "2C7 peptide mimitope of Neisseria gonorrhoeae lipooligosaccharide",
     "organism": "synthetic construct",
     "method": "NMR",
@@ -9,7 +9,7 @@
     "sequence": "MSKYLLPTAAAGLLLLAAQPAMAGSSSQVQLVESGGGLVQAGGSLRLSCAASGFPVYWNSMYWYRQAPGKEREWVAAITSQGGGTEYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCTVGVGVSYRGQGTQVTVSAGRAGEQKLISEEDLNSAVDHHHHHH"
   },
   {
-    "pdb": "8evd",
+    "pdb": "8EVD",
     "antigen": "PA14 Cif",
     "organism": "Pseudomonas aeruginosa PA14, Vicugna pacos",
     "method": "X ray",
@@ -18,7 +18,7 @@
     "sequence": "AEEFPVPNGFESAYREVDGVKLHYVKGGQGPLVMLVHGFGQTWYEWHQLMPELAKRFTVIAPDLPGLGQSEPPKTGYSGEQVAVYLHKLARQFSPDRPFDLVAHDIGIWNTYPMVVKNQADIARLVYMEAPIPDARIYRFPAFTAQGESLVWHFSFFAADDRLAETLIAGKERFFLEHFIKSHASNTEVFSERLLDLYARSYAKPHSLNASFEYYRALNESVRQNAELAKTRLQMPTMTLAGGGHGGMGTFQLEQMKAYAEDVEGHVLPGCGHWLPEECAAPMNRLVIDFLSRGRHHHHHH"
   },
   {
-    "pdb": "8xld",
+    "pdb": "8XLD",
     "antigen": "GFP",
     "organism": "Cytaeis uchidae, synthetic construct",
     "method": "X ray",
@@ -27,7 +27,7 @@
     "sequence": "QVQLVESGGGLVQAGGSLRLSCAASGLTFPAYAMGWYRQAPGKERELVAAITGDGSTNYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAADRYVPAPPYYYWGQGTQVTVSS"
   },
   {
-    "pdb": "8fıf",
+    "pdb": "8FIF",
     "antigen": "Microcystin-LR",
     "organism": "Lama glama, synthetic construct",
     "method": "X ray",
@@ -36,7 +36,7 @@
     "sequence": "MAQVTLKESGGGLVQPGGSLRLSCAASGGISRVNVAGWYRQAPGQQREMVAVIRSGGRINYADFVKGRFTFSRDDAKQTIYLQMDNLKSEDTAVYYCYGSLLETGTFQYREYWGQGTQVTVSSHHHHHH"
   },
   {
-    "pdb": "5ıvn",
+    "pdb": "5IVN",
     "antigen": "BC2 peptide tag",
     "organism": "Vicugna pacos, Homo sapiens",
     "method": "X ray",
@@ -45,7 +45,7 @@
     "sequence": "QVQLVESGGGLVQPGGSLTLSCTASGFTLDHYDIGWFRQAPGKEREGVSCINNSDDDTYYADSVKGRFTIFMNNAKDTVYLQMNSLKPEDTAIYYCAEARGCKRGRYEYDFWGQGTQVTVSSKKKHHHHHH"
   },
   {
-    "pdb": "8h7m",
+    "pdb": "8H7M",
     "antigen": "Parathion",
     "organism": "Camelus bactrianus",
     "method": "X ray",
@@ -54,7 +54,7 @@
     "sequence": "EVQLVESGGGLVQPGGSLRLSCVGSGRVRTINTAGWYRQAPGQEPEFLARITVGGTTSYADSVKGRFTISRDLAKSTVYLQMDYLKPEDTAVYYCNADFDFGSRTAWGQGTQVTVSSGQAGQHHHHHHGAYPYDVPDYAS"
   },
   {
-    "pdb": "8h7ı",
+    "pdb": "8H7I",
     "antigen": "Quinalphos",
     "organism": "Camelus bactrianus",
     "method": "X ray",
@@ -63,7 +63,7 @@
     "sequence": "EVQLVESGGGLVQPGGSLRLSCVGSGRVRTINTAGWYRQAPGQEPEFLARITVGGTTSYADSVKGRFTISRDLAKSTVYLQMDYLKPEDTAVYYCNADFDFGSRTAWGQGTQVTVSSGQAGQHHHHHHGAYPYDVPDYAS"
   },
   {
-    "pdb": "8h7n",
+    "pdb": "8H7N",
     "antigen": "Triazophos",
     "organism": "Camelus bactrianus",
     "method": "X ray",
@@ -72,7 +72,7 @@
     "sequence": "EVQLVESGGGLVQPGGSLRLSCVGSGRVRTINTAGWYRQAPGQEPEFLARITVGGTTSYADSVKGRFTISRDLAKSTVYLQMDYLKPEDTAVYYCNADFDFGSRTAWGQGTQVTVSSGQAGQHHHHHHGAYPYDVPDYAS"
   },
   {
-    "pdb": "7a50",
+    "pdb": "7A50",
     "antigen": "APH",
     "organism": "Lama glama, synthetic construct",
     "method": "X ray",
@@ -81,7 +81,7 @@
     "sequence": "QVQLQESGGGLVQAGDSLRLSCAASGRTFSTYPMGWFRQAPGKEREFVAASSSRAYYADSVKGRFTISRNNAKNTVYLQMNSLKPEDTAVYYCVADSSPYYRRYDAAQDYDYWGQGTQVTVSSGRYPYDVPDYGSGRA"
   },
   {
-    "pdb": "6ı2g",
+    "pdb": "6I2G",
     "antigen": "ALFA-tag peptide",
     "organism": "Vicugna pacos, synthetic construct",
     "method": "X ray",
@@ -90,7 +90,7 @@
     "sequence": "SGEVQLQESGGGLVQPGGSLRLSCTASGVTISALNAMAMGWYRQAPGERRVMVAAVSERGNAMYRESVQGRFTVTRDFTNKMVSLQMDNLKPEDTAVYYCHVLEDRVDSFHDYWGQGTQVTVSS"
   },
   {
-    "pdb": "8h7r",
+    "pdb": "8H7R",
     "antigen": "Coumaphos",
     "organism": "Camelus bactrianus",
     "method": "X ray",
@@ -99,7 +99,7 @@
     "sequence": "EVQLVESGGGLVQPGGSLRLSCVGSGRVRTINTAGWYRQAPGQEPEFLARITVGGTTSYADSVKGRFTISRDLAKSTVYLQMDYLKPEDTAVYYCNADFDFGSRTAWGQGTQVTVSSGQAGQHHHHHHGAYPYDVPDYAS"
   },
   {
-    "pdb": "8f6u",
+    "pdb": "8F6U",
     "antigen": "PA14 Cif",
     "organism": "Pseudomonas aeruginosa PA14, Vicugna pacos",
     "method": "X ray",
@@ -108,7 +108,7 @@
     "sequence": "MAEVQLVESGGGLVPAGGSLRLSCTTSERAFRSNAMGWFRQAPGKEREFVAAVSVLSWSGDSAVVADSVAGRFTIFRDNAKNTVYLQMNSLKPEDTAVYYCNGASDIGALQSGASSWSWGHGTQVTVSSGQAGQHHHHHHGAYPYDVPDYASGS"
   },
   {
-    "pdb": "8f6v",
+    "pdb": "8F6V",
     "antigen": "PA14 Cif",
     "organism": "Pseudomonas aeruginosa PA14, Vicugna pacos",
     "method": "X ray",
@@ -117,7 +117,7 @@
     "sequence": "MAEVQLVESGGGLVQPGGSLRLSCEATGNFDDRGIGWFRQAPGKEREGIACITTRGRTHYAESVEGRFTISTDIANNAVYLQMNSLKPEDTAVYYCAKAIRLTTDRTQCVAFPGVSWGRGTQVTVSSGQAGQ"
   },
   {
-    "pdb": "8gjr",
+    "pdb": "8GJR",
     "antigen": "PA14 Cif",
     "organism": "Pseudomonas aeruginosa PA14, Vicugna pacos",
     "method": "X ray",
@@ -126,7 +126,7 @@
     "sequence": "MAQVKLQESGGGLVQPGESLTLSCAVSVRLSGITTMGWYRQAPGKQREMVASISRGGSTVYLDSVKGRFTVSRDNTKNTVKLQMNSLKPEDTAIYYCNAKILLVASTDDYWGQGTQVTVSSGQAGQ"
   },
   {
-    "pdb": "6ey0",
+    "pdb": "6EY0",
     "antigen": "PorM",
     "organism": "Porphyromonas gingivalis, Lama glama",
     "method": "X ray",
@@ -135,7 +135,7 @@
     "sequence": "METADVQLVESGGGLVQAGGSLRVSCAASGRTFSSYSMGWFRQAPGKEREFVAAISRSDNSTYYADSVKGRFTISRDSAKNTVYLQMNSLKPEDTAVYYCAATPYGSRYYLRELREYDYWGQGTQVTVSSHHHHHH"
   },
   {
-    "pdb": "7a48",
+    "pdb": "7A48",
     "antigen": "APH",
     "organism": "Lama glama, synthetic construct",
     "method": "X ray",
@@ -144,7 +144,7 @@
     "sequence": "QVQLQESGGGLVQPGGSLRLSCIASGRTFNPYGMGWFRQVPGKERTFVSGITWIGGTTYYVNSVKGRFTISRDRAKNTVYLQMNSLKPEDTAVYYCAADKDNTGYNYWGQGTQVTVSSFGYPYDVPDYGSGRA"
   },
   {
-    "pdb": "9nk9",
+    "pdb": "9NK9",
     "antigen": "Peptide Complex",
     "organism": "Lama glama, synthetic construct",
     "method": "X ray",
@@ -153,7 +153,7 @@
     "sequence": "EVQLVESGGGLVQAGESLRLSCAASGSTFDFKVMGWYRQPPGKQREGVAAIRLSGNMHYAESVKGRFAISKANAKNTVYLQMNSLRPEDTAVYYCKVNIRGQDYWGQGTQVTVSSVSSGGLPETGGHHHHHH"
   },
   {
-    "pdb": "7zk1",
+    "pdb": "7ZK1",
     "antigen": "Cystinosin",
     "organism": "Arabidopsis thaliana, Lama glama, synthetic construct",
     "method": "X ray",
@@ -162,7 +162,7 @@
     "sequence": "QVQLVESGGGLVQAGGSLRLSCAASGRTITPISTYVMGWFRQDPGKEREFVASISWNGANTYYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAADPESHVRLRLGVGAYWGRGTQVTVSSA"
   },
   {
-    "pdb": "5gxb",
+    "pdb": "5GXB",
     "antigen": "LacY",
     "organism": "Vicugna pacos, Escherichia coli (strain K12)",
     "method": "X ray",
@@ -171,7 +171,7 @@
     "sequence": "MQVQLVESGGRLVQAGDSLRLSCAASGRTFTTYLMGWFRQAPGKEREFVAAIRWSGGSTYYADSVKGRFTISRDNAKNTVYLQMNSLKLEDTAVYYCAAAARPSYSGDYGYTEALRYDYWGQGTQVTVSSHHHHHHEPEA"
   },
   {
-    "pdb": "8eln",
+    "pdb": "8ELN",
     "antigen": "PA14 Cif",
     "organism": "Pseudomonas aeruginosa PA14, Vicugna pacos",
     "method": "X ray",
@@ -180,7 +180,7 @@
     "sequence": "MAQVKLQESGGGLVQPGGSLRLSCASSVPIFAITVMGWYRQAPGKQRELVAGIKRSGDTNYADSVKGRFTISRDDAKNTVFLQMNSLTTEDTAVYYCNAQILSWMGGTDYWGQGTQVTVSSGQAGQ"
   },
   {
-    "pdb": "7kjı",
+    "pdb": "7KJI",
     "antigen": "Pf12p",
     "organism": "Vicugna pacos, Plasmodium falciparum",
     "method": "X ray",
@@ -189,7 +189,7 @@
     "sequence": "QVQLQESGGGLVQPGGSLRLSCAASGIIFSSHVMGWYRQAPGKQRELVASFSGDTGAKYADSVKGRFIIRRENAKNMVTLYLQMNSLKPEDTAAYYCHVDRFGTEYWGQGTQVTVSSHHHHHH"
   },
   {
-    "pdb": "9g9m",
+    "pdb": "9G9M",
     "antigen": "Lipid III flippase WzxE",
     "organism": "Lama glama, Escherichia coli",
     "method": "X ray",
@@ -198,7 +198,7 @@
     "sequence": "MAQVQLVESGGGLVQAGGSLGLSCAASGRTFSNYVMAWFRQAPGKEREFVARISESRGTTDYADSVKGRFTISRDNAKNTIYLQMNSLNPGDTAVYSCAATLPAWTGIIGGRRPGNYPYWGQGTQVTVSSHHHHHHEPEA"
   },
   {
-    "pdb": "9g9n",
+    "pdb": "9G9N",
     "antigen": "Lipid III flippase WzxE",
     "organism": "Lama glama, Escherichia coli",
     "method": "X ray",
@@ -207,7 +207,7 @@
     "sequence": "MAQVQLVESGGGLVQAGDSLTLSCAASGRTAYRYGMGWFRQHPGKEREFVASIWWTGTTTYYADSVKGRFTISRDDVKNMVYLQMNSLKPEDTAVYYCAAKFYGGNSKRPGDYAYWGQGTQVTVSSHHHHHHEPEA"
   },
   {
-    "pdb": "9g9o",
+    "pdb": "9G9O",
     "antigen": "Lipid III flippase WzxE",
     "organism": "Lama glama, Escherichia coli",
     "method": "X ray",
@@ -216,7 +216,7 @@
     "sequence": "MAQVQLVESGGGLVQAGGSLGLSCAASGRTFSNYVMAWFRQAPGKEREFVARISESRGTTDYADSVKGRFTISRDNAKNTIYLQMNSLNPGDTAVYSCAATLPAWTGIIGGRRPGNYPYWGQGTQVTVSSHHHHHHEPEA"
   },
   {
-    "pdb": "9g9p",
+    "pdb": "9G9P",
     "antigen": "Lipid III flippase WzxE",
     "organism": "Lama glama, Escherichia coli",
     "method": "X ray",
@@ -225,7 +225,7 @@
     "sequence": "MAQVQLVESGGGLVQAGDSLTLSCAASGRTAYRYGMGWFRQHPGKEREFVASIWWTGTTTYYADSVKGRFTISRDDVKNMVYLQMNSLKPEDTAVYYCAAKFYGGNSKRPGDYAYWGQGTQVTVSSHHHHHHEPEA"
   },
   {
-    "pdb": "8c3k",
+    "pdb": "8C3K",
     "antigen": "PaaR2 N-terminal domain",
     "organism": "Escherichia coli O157:H7, Lama glama",
     "method": "X ray",
@@ -234,7 +234,7 @@
     "sequence": "QVQLVESGGGLVQSGGSLRLSCAASGSIFRTTGMNWYRQTPEKQREWVALITSHGTTSYAASVEGRFTISRDSAGTTVYLQMNSLKPEDAGVYYCTTRGYWGQGTQVTVSSHHHHHH"
   },
   {
-    "pdb": "8g0w",
+    "pdb": "8G0W",
     "antigen": "human norovirus GII.4 P domain",
     "organism": "Lama glama",
     "method": "X ray",
@@ -243,7 +243,7 @@
     "sequence": "QVKLQQSGGGLVQPGGSLRLSCAASESTISINTLGWYRQAPGNQRELVATITTGGTTNYADSVKGRFTISRDNAKNTVYLQMNNLEPGDTAVYYCNLKRRDLQSRFGGYWGQGTQVTVSS"
   },
   {
-    "pdb": "8ee2",
+    "pdb": "8EE2",
     "antigen": "PA14 Cif",
     "organism": "Pseudomonas aeruginosa PA14, Vicugna pacos",
     "method": "X ray",
@@ -252,7 +252,7 @@
     "sequence": "MAEVQLVESGGGLVQPGGSLRLSCTTSTSLFSITTMGWYRQAPGKQRELVASIKRGGGTNYADSMKGRFTISRDNARNTVFLEMNNLTTEDTAVYYCNAAILAYTGEVTNYWGQGTQVTVSSGQAGQ"
   },
   {
-    "pdb": "7ocy",
+    "pdb": "7OCY",
     "antigen": "Enterococcus faecalis EfrCD",
     "organism": "Enterococcus faecalis, Vicugna pacos",
     "method": "Electron Microscopy",
@@ -261,7 +261,7 @@
     "sequence": "GPSQLQLVESGGGLVQAGDTLRLSCEASRSFNRMGWYRQAPGKQRDMVAHIFSDGRTRYADSVQGRFTISRDNAKNTVYLQMNNLKPEDTAVYYCNGFFIQDFWGQGTPVTVSA"
   },
   {
-    "pdb": "7zkz",
+    "pdb": "7ZKZ",
     "antigen": "Cystinosin",
     "organism": "Arabidopsis thaliana, Lama glama",
     "method": "X ray",
@@ -270,7 +270,7 @@
     "sequence": "QVQLVESGGGLVQAGGSLRLSCAASGRTITPISTYVMGWFRQDPGKEREFVASISWNGANTYYADSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAADPESHVRLRLGVGAYWGRGTQVTVSSA"
   },
   {
-    "pdb": "6lr7",
+    "pdb": "6LR7",
     "antigen": "GFPuv",
     "organism": "Camelus bactrianus, Aequorea victoria",
     "method": "X ray",

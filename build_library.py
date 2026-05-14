@@ -26,6 +26,9 @@ def build_json():
         if not pdb:
             continue
             
+        # Normalize PDB code: replace Turkish 'ı' with 'i' and uppercase
+        pdb = pdb.replace('ı', 'i').replace('I', 'I').upper()
+            
         record = {
             "pdb": pdb,
             "antigen": clean_value(row.get('Antijen', '')),
