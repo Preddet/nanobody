@@ -125,9 +125,11 @@ function setupEventListeners() {
     agFilter.addEventListener('change', applyFilters);
 }
 
-// Initialize PDBe Molstar viewer
+// Initialize 3Dmol viewer
 function initViewer() {
-    viewer = new PDBeMolstarPlugin();
+    let element = document.getElementById('molViewer');
+    let config = { backgroundColor: '#0f172a' };
+    viewer = $3Dmol.createViewer(element, config);
 }
 
 // Handle row selection
@@ -184,22 +186,24 @@ function selectRow(trElement, item) {
     loadStructure(item.pdb);
 }
 
-// Fetch and render the PDB file dynamically using Molstar
+// Fetch and render the PDB file dynamically
 function loadStructure(pdbCode) {
-    const viewerContainer = document.getElementById('molViewer');
+    viewer.clear();
     
-    // Clear previous viewer content if any
-    viewerContainer.innerHTML = '';
-    
-    const options = {
-        moleculeId: pdbCode.toLowerCase(),
-        expanded: false,
-        hideControls: false,
-        hideCanvasControls: false,
-        subscribeEvents: true,
-        bgColor: {r: 15, g: 23, b: 42}, // Match our theme #0f172a
-        domId: 'molViewer'
-    };
-    
-    viewer.render(viewerContainer, options);
+    // Use 3Dmol's built-in fetcher for PDBs
+    $3Dmol.download(`pdb:${pdbCode}`, viewer, {
+        multimodel: false,
+        frames: true
+    }, function() {
+        // Set beautiful styling
+        viewer.setStyle({}, { cartoon: { color: 'spectrum' } });
+        // Try to highlight different chains
+        viewer.setStyle({chain: 'A'}, { cartoon: { color: 'cyan' } });
+        viewer.setStyle({chain: 'B'}, { cartoon: { color: 'magenta' } });
+        viewer.setStyle({chain: 'C'}, { cartoon: { color: 'yellow' } });
+        
+        viewer.zoomTo();
+        viewer.render();
+        viewer.zoom(1.2, 1000); // smooth zoom in
+    });
 }
