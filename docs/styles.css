@@ -340,6 +340,12 @@ tbody tr.active {
     font-family: monospace;
     font-weight: 600;
     color: var(--accent-hover);
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.badge-pdb:hover {
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .center {

@@ -77,7 +77,7 @@ function renderTable(data) {
             : `<span class="paper-link disabled"><i class="ph ph-file-dashed"></i></span>`;
             
         tr.innerHTML = `
-            <td><span class="badge-pdb">${item.pdb}</span></td>
+            <td><a href="https://www.rcsb.org/structure/${item.pdb}" target="_blank" class="badge-pdb" onclick="event.stopPropagation()">${item.pdb}</a></td>
             <td>${item.antigen || '-'}</td>
             <td>${item.organism || '-'}</td>
             <td>${item.method || '-'}</td>
@@ -142,7 +142,7 @@ function selectRow(trElement, item) {
     
     // Update Viewer Header
     const badge = document.getElementById('activePdbLabel');
-    badge.textContent = `PDB: ${item.pdb}`;
+    badge.innerHTML = `PDB: <a href="https://www.rcsb.org/structure/${item.pdb}" target="_blank" style="color: inherit; text-decoration: underline;">${item.pdb}</a>`;
     badge.classList.add('active');
     
     // Setup Download Button
