@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nanobody Library Explorer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- 3Dmol.js for structural viewing -->
+    <script src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+    
+    <!-- Phosphor Icons for elegant scalable icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1><i class="ph ph-hexagon"></i> Nanobody Library</h1>
+                <p>Explore, filter, and visualize high-resolution nanobody structures from the RCSB PDB.</p>
+            </div>
+            <div class="glass-orb orb-1"></div>
+            <div class="glass-orb orb-2"></div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-layout">
+            
+            <!-- Left Panel: Data Table & Filters -->
+            <section class="data-section">
+                
+                <!-- Controls -->
+                <div class="controls-panel glass-panel">
+                    <div class="search-box">
+                        <i class="ph ph-magnifying-glass"></i>
+                        <input type="text" id="globalSearch" placeholder="Search by PDB, Antigen, Organism...">
+                    </div>
+                    
+                    <div class="filters">
+                        <div class="filter-group">
+                            <label for="organismFilter">Organism</label>
+                            <select id="organismFilter">
+                                <option value="">All Organisms</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label for="antigenFilter">Antigen</label>
+                            <select id="antigenFilter">
+                                <option value="">All Antigens</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="stats">
+                        <span id="resultCount">Loading...</span> nanobodies found
+                    </div>
+                </div>
+
+                <!-- Table -->
+                <div class="table-container glass-panel">
+                    <table id="libraryTable">
+                        <thead>
+                            <tr>
+                                <th>PDB</th>
+                                <th>Antigen</th>
+                                <th>Organism</th>
+                                <th>Method</th>
+                                <th class="center">Paper</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Rows will be populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+                
+            </section>
+
+            <!-- Right Panel: 3D Viewer -->
+            <section class="viewer-section glass-panel">
+                <div class="viewer-header">
+                    <h2><i class="ph ph-cube"></i> Structural Viewer</h2>
+                    <div class="header-actions">
+                        <span id="activePdbLabel" class="badge">None Selected</span>
+                        <button id="downloadPdbBtn" class="btn-primary" disabled><i class="ph ph-download-simple"></i> Download .pdb</button>
+                    </div>
+                </div>
+                
+                <div class="viewer-container">
+                    <div id="molViewer" class="mol-viewer">
+                        <div class="viewer-placeholder">
+                            <i class="ph ph-hand-pointing"></i>
+                            <p>Select a nanobody from the table to view its 3D structure.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="viewer-details" id="viewerDetails">
+                    <!-- Sequence and info will show here -->
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
