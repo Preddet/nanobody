@@ -266,6 +266,7 @@ body {
 
 table {
     width: 100%;
+    min-width: 800px; /* Ensures the table doesn't get smashed on mobile, enabling horizontal scroll instead */
     border-collapse: collapse;
     text-align: left;
     table-layout: fixed;
@@ -519,7 +520,16 @@ tbody tr.active {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+    .app-container {
+        padding: 1rem;
+    }
+    
+    .app-header {
+        padding: 1.5rem;
+    }
+    
     .controls-panel {
+        padding: 1rem;
         flex-direction: column;
         align-items: stretch;
     }
