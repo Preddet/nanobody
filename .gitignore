@@ -10,4 +10,4 @@ ENV/
 .idea/
 *.xlsx
 # We include library.json since it's the website data
-!website/library.json
+!docs/library.json

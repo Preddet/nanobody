@@ -15,8 +15,8 @@ def build_json():
     print(f"Reading {file_path}...")
     df = pd.read_excel(file_path)
     
-    # Create website directory if it doesn't exist
-    os.makedirs('website', exist_ok=True)
+    # Create docs directory if it doesn't exist
+    os.makedirs('docs', exist_ok=True)
     
     records = []
     # Columns: ['PDB code', 'Antijen', 'Organism', 'Yöntem', 'Makale var mı?', 'Makale Link', 'Nanobody Sekansı']
@@ -37,7 +37,7 @@ def build_json():
         }
         records.append(record)
         
-    out_path = os.path.join('website', 'library.json')
+    out_path = os.path.join('docs', 'library.json')
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(records, f, indent=2, ensure_ascii=False)
         
